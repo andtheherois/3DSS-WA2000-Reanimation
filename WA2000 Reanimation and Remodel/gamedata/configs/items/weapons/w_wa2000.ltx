@@ -31,14 +31,16 @@
         
         hud                         = wpn_wa2000_hud
         visual                      = dynamics\weapons\wpn_wa2000\wpn_wa2000.ogf
-        position                    = -0.026, -0.130, 0
-        orientation                 = 0, 0, 0
-        fire_point                  = 0, 0.195, 0.777
         fire_point2                 = 0, 0.195, 0.777
         strap_bone0                 = bip01_spine2
         strap_bone1                 = bip01_spine1
-        strap_position              = -0.15, -0.15, 0.45
-        strap_orientation           = -25, -189, 65
+		
+        fire_point                       = 0.001802, 0.050804, 0.630728
+        orientation                      = -0.061431, 0.034705, 0
+        position                         = -0.026801, -0.000629, 0.00064
+        strap_orientation                = -7.26072, -180, 74.75929
+        strap_position                   = -0.246843, -0.166495, 0.379247
+		
         ph_mass                     = 8
         
         flame_particles             = weapons\generic_weapon06
@@ -81,7 +83,7 @@
         silencer_name               = wpn_addon_silencer
         silencer_status             = 0
         silencer_x                  = 281
-        silencer_y                  = 17
+        silencer_y                  = 0
         silencer_light_color        = 0.6, 0.5, 0.3
         silencer_light_range        = 0.01
         silencer_light_time         = 0.2
@@ -160,14 +162,12 @@ control_inertion_factor = 1.0f
 		snd_reload_empty				= weapons\librarian_wa2k\reload_empty
 		snd_reload_misfire				= weapons\librarian_wa2k\unjam
 
-	s3ds_reticle_size 	= 4.1
+	s3ds_reticle_size 	= 4.9
 	s3ds_eye_relief 	= 4
 	s3ds_exit_pupil		= 0.4	
 	s3ds_ffp			= 1	
-	s3ds_min_zoom_fov 	= 35
-	s3ds_max_zoom_fov 	= 28
-	magnification 		 = 20
-	
+	magnifications 		= 4-20
+		
 lewd_lens_hide_enabled       = true
 lewd_lens_hide_bone          = lens
 lewd_lens_hide_delays        = 0.1,0
@@ -185,15 +185,15 @@ lewd_lens_hide_aim_mode      = true, false, false
         hands_position                   = -0.013067, 0.017923, 0.009749
         hands_position_16x9              = -0.013067, 0.017923, 0.009749
         
-        aim_hud_offset_pos               = -0.104868, -0.003134, -0.071437
-        aim_hud_offset_pos_16x9          = -0.104868, -0.003134, -0.071437
-        aim_hud_offset_rot               = 0.004306, -0.004486, 0
-        aim_hud_offset_rot_16x9          = 0.004306, -0.004486, 0
+        aim_hud_offset_pos               = -0.10495, 0.005377, -0.04977
+        aim_hud_offset_pos_16x9          = -0.10495, 0.005377, -0.04977
+        aim_hud_offset_rot               = 0.004144, -0.004603, 0
+        aim_hud_offset_rot_16x9          = 0.004144, -0.004603, 0
 		
-		lowered_hud_offset_pos           = 0.095869, -0.024198, 0.014087
-        lowered_hud_offset_pos_16x9      = 0.095869, -0.024198, 0.014087
-        lowered_hud_offset_rot           = 0.101423, -0.80112, 0.122058
-        lowered_hud_offset_rot_16x9      = 0.101423, -0.80112, 0.122058
+        lowered_hud_offset_pos           = 0.095331, -0.002077, 0.018001
+        lowered_hud_offset_pos_16x9      = 0.095331, -0.002077, 0.018001
+        lowered_hud_offset_rot           = 0.194734, -0.662712, 0.122058
+        lowered_hud_offset_rot_16x9      = 0.194734, -0.662712, 0.122058
 
         
         lean_hud_offset_pos         	 = 0, 0, 0
@@ -216,8 +216,8 @@ lewd_lens_hide_aim_mode      = true, false, false
         shell_dir                   = 0, 1, 0
         shell_point                 = 0.037, 0.063, 0.118
         
-        fire_bone                   = wpn_body
+        fire_bone                   = muzzle
         fire_bone2                  = wpn_body
-        fire_point                  = -0.011, 0.073565, 0.659957
+        fire_point                  = -0.0005, -0.007, -0.06
         fire_point2                 = 0, -0.008, 0.408
  
