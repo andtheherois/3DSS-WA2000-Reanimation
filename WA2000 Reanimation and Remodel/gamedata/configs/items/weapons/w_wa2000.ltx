@@ -15,10 +15,18 @@
         hand_dependence             = 1
         single_handed               = 0
         
-        inv_grid_height             = 2
-        inv_grid_width              = 6
-        inv_grid_x                  = 64
-        inv_grid_y                  = 70
+		icons_texture					 = ui\ui_icon_wa2k
+		inv_grid_width					 = 6
+		inv_grid_height					 = 2
+		inv_grid_x						 = 0
+		inv_grid_y						 = 0
+
+		upgr_icon_path					 = ui\ui_icon_wa2k
+		upgr_icon_x						 = 0
+		upgr_icon_y						 = 100
+		upgr_icon_width					 = 350
+		upgr_icon_height				 = 150
+		
         inv_name                    = st_wpn_wa2000
         inv_name_short              = st_wpn_wa2000
         description                 = st_wpn_wa2000_descr
@@ -59,10 +67,6 @@
         upgrades                    = up_gr_firstab_svd, up_gr_seconab_svd, up_gr_thirdab_svd, up_gr_fourtab_svd, up_gr_fourtcd_svd, up_gr_fourtef_svd
         installed_upgrades          =
         upgrade_scheme              = upgrade_scheme_svd
-        upgr_icon_x                 = 1750
-        upgr_icon_y                 = 400
-        upgr_icon_width             = 300
-        upgr_icon_height            = 100
         
         fire_modes                  = 1
         ammo_class                  = ammo_7.62x51_fmj, ammo_7.62x51_fmj_bad, ammo_7.62x51_fmj_verybad, ammo_7.62x51_ap, ammo_7.62x51_ap_bad, ammo_7.62x51_ap_verybad
@@ -77,8 +81,8 @@
         scope_name                  = wpn_addon_scope
         scope_x                     = 49
         scope_y                     = 7
-        scope_zoom_factor                = 6	
-		min_scope_zoom_factor			 = 30
+        scope_zoom_factor                = 5	
+		min_scope_zoom_factor			 = 40
         
         silencer_name               = wpn_addon_silencer
         silencer_status             = 0
@@ -166,7 +170,7 @@ control_inertion_factor = 1.0f
 	s3ds_eye_relief 	= 4
 	s3ds_exit_pupil		= 0.4	
 	s3ds_ffp			= 1	
-	magnifications 		= 4-20
+	magnifications 		= 3-24
 		
 lewd_lens_hide_enabled       = true
 lewd_lens_hide_bone          = lens
@@ -180,15 +184,15 @@ lewd_lens_hide_aim_mode      = true, false, false
         item_position               	 = 0, 0, 0
         item_orientation            	 = 0, 0, 0
         
-        hands_orientation                = -0.0482, -0.000801, -0.008539
-        hands_orientation_16x9           = -0.0482, -0.000801, -0.008539
-        hands_position                   = -0.013067, 0.017923, 0.009749
-        hands_position_16x9              = -0.013067, 0.017923, 0.009749
+        hands_orientation                = 0.047585, -0.450071, -0.008539
+        hands_orientation_16x9           = 0.047585, -0.450071, -0.008539
+        hands_position                   = -0.059929, 0.005331, 0.0047
+        hands_position_16x9              = -0.059929, 0.005331, 0.0047
         
-        aim_hud_offset_pos               = -0.10495, 0.005377, -0.04977
-        aim_hud_offset_pos_16x9          = -0.10495, 0.005377, -0.04977
-        aim_hud_offset_rot               = 0.004144, -0.004603, 0
-        aim_hud_offset_rot_16x9          = 0.004144, -0.004603, 0
+        aim_hud_offset_pos               = -0.058697, 0.017116, -0.039584
+        aim_hud_offset_pos_16x9          = -0.058697, 0.017116, -0.039584
+        aim_hud_offset_rot               = -0.007842, 0.000773, 0
+        aim_hud_offset_rot_16x9          = -0.007842, 0.000773, 0
 		
         lowered_hud_offset_pos           = 0.095331, -0.002077, 0.018001
         lowered_hud_offset_pos_16x9      = 0.095331, -0.002077, 0.018001
@@ -217,7 +221,5 @@ lewd_lens_hide_aim_mode      = true, false, false
         shell_point                 = 0.037, 0.063, 0.118
         
         fire_bone                   = muzzle
-        fire_bone2                  = wpn_body
         fire_point                  = -0.0005, -0.007, -0.06
-        fire_point2                 = 0, -0.008, 0.408
  
